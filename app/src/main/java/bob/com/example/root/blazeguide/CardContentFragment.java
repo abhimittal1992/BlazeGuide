@@ -38,6 +38,7 @@ import android.widget.TextView;
  * Provides UI for the view with Cards.
  */
 public class CardContentFragment extends Fragment {
+    static Class[] screenArray = {KnightScreen.class, DragonScreen.class,ResourcesScreen.class,AttackingTricksScreen.class,DefendingTricks.class};
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -62,27 +63,17 @@ public class CardContentFragment extends Fragment {
                 @Override
                 public void onClick(View v) {
                     Context context = v.getContext();
+                    try{
+                        getScreen(context,screenArray[getAdapterPosition()]);
 
-
-
-
-                    if(getAdapterPosition() ==0){
-                        Intent intent = new Intent(context, KnightScreen.class);
-
-                        context.startActivity(intent);
-                    }else{
-                        Intent intent = new Intent(context, DetailActivity.class);
+                    }catch (Exception e){
+                         Intent intent = new Intent(context, DetailActivity.class);
+                        intent = new Intent(context, DetailActivity.class);
                         intent.putExtra(DetailActivity.EXTRA_POSITION, getAdapterPosition());
                         context.startActivity(intent);
                     }
-
-
-
-
-
                 }
             });
-
             // Adding Snackbar to Action Button inside card
             Button button = (Button)itemView.findViewById(R.id.action_button);
             button.setOnClickListener(new View.OnClickListener(){
@@ -92,7 +83,6 @@ public class CardContentFragment extends Fragment {
                             Snackbar.LENGTH_LONG).show();
                 }
             });
-
             ImageButton favoriteImageButton =
                     (ImageButton) itemView.findViewById(R.id.favorite_button);
             favoriteImageButton.setOnClickListener(new View.OnClickListener(){
@@ -114,12 +104,16 @@ public class CardContentFragment extends Fragment {
         }
     }
 
+    public static void getScreen(Context context, Class screen) {
+        Intent intent = new Intent(context, screen);
+        context.startActivity(intent);
+    }
     /**
      * Adapter to display recycler view.
      */
     public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
         // Set numbers of List in RecyclerView.
-        private static final int LENGTH = 18;
+        private static final int LENGTH = 6;
         private final String[] mPlaces;
         private final String[] mPlaceDesc;
         private final Drawable[] mPlacePictures;

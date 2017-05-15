@@ -24,11 +24,12 @@
     android:layout_marginBottom="@dimen/md_keylines"
     android:layout_marginLeft="@dimen/md_keylines"
     android:layout_marginRight="@dimen/md_keylines"
-    android:foreground="?attr/selectableItemBackground">
+    android:background="#000000">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#000000">
 
         <ImageView
             android:id="@+id/card_image"
@@ -44,7 +45,6 @@
             android:layout_alignBottom="@+id/card_image"
             android:layout_marginLeft="@dimen/md_keylines"
             tools:text="@string/item_title"
-            android:textAppearance="@style/TextAppearance.AppCompat.Title"
             android:textColor="@color/white" />
 
         <TextView
@@ -59,7 +59,7 @@
             tools:text="@string/item_desc"
             android:ellipsize="end"
             android:singleLine="true"
-            android:textColor="@color/dark_grey"
+            android:textColor="@color/yellow"
             android:textSize="@dimen/article_subheading" />
 
         <Button
@@ -68,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/card_text"
             style="?android:attr/borderlessButtonStyle"
-            android:textColor="?attr/colorPrimary"
+            android:textColor="@color/white"
             android:text="Action" />
 
         <ImageButton

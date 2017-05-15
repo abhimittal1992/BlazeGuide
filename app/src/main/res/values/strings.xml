@@ -32,6 +32,55 @@
     </string>
     <string name="detail_location">"8 Rue Scribe, 75009 Paris, France"</string>
     <string name="title_activity_knight_upgrade_page">KnightUpgradePage</string>
+    <string name="monsterkill">"Killing a level-3 or higher monster is quite difficult unless you have good dragon research and equipment. \n\n"
+
+    "First you need to upgrade your dragon, make sure you have 8 points in each dragon combat research to hit a lvl-3+ with good damage and  forge some dragon combat accessories if you have chuthlu's items and wear them whenever you hit a mob \n\n"
+   "Ok after this Letz see how we can kill a mob quickly \n"
+        "In order to kill a mob quickly people do make some mistakes like doing max attack every time, you need to boost the alliance bonus by doing single hit everytime \n\n"
+        "Team up to kill a lvl-3+ mob with 3 players and do all single attacks that will boost the allinace bonus and get you mob killed quickly"
+    </string>
+    <string name="getElites">"When you kill a monster your not sure that it will turn into an elite or not, So as far i have researched elite monsters are spawn in same location everytime, so whenever a monsters turn into elite one just BookMark that location so if u find any other mob in that location after sometime there is a 60-70% possibilty you will get an elite again :)
+    </string>
+
+    <string name="challenger_rewards">"Everyone loves to get challenger rewards specially when you working in a team to kill a monster but BOB made it totally random. It doesnt depend on anything like no of hits/first hit/last hit it ramdomlly allocate the challenger name"
+    </string>
+
+    <string name="efficientFarm">"To make a farm account you just have to click on the accounts->switch account->start new game \n\n After starting new game just complete the tutorial and use supreme teleport to get into your main kingdom, remember you can only use supreme teleport before cc-5 so dont upgrade much before teleporting to your kingdom \n Lets see how we can create a good resource producing farms."
+    </string>
+
+
+    <string name="foodFarm">"Food Farm is easy to create and will get you lot of food that you dont have to farm, to make your farm a good food producer just follow below steps: \n\n 1. Upgrade cc to 10 atleast ideally till cc-15 is best so you can kill lvl-3 monster as well. \n 2. Construct 21 food farms and upgrade it to max. \n 3. Research food production \n 4. Set Lord skills on food production. \n 5. Upgrade dragon and forge some good accessories for food production "
+
+
+    </string>
+
+    <string name="otherFarms">"For others follow same steps as for food farm but you hardly get any dragon equipement for other resource boost"
+
+
+    </string>
+
+    <string name="goldFarmm">"You dont need any specific account for gold prodution. Yes thats the advantage of it, if you create above mentioned farms then all you need to do is construct houses for gold production and research gold production you will get gold from all your farm accounts."
+
+
+    </string>
+
+    <string name="rssfarming">"Resources are the most important part of any war game, so you just always want to be resourcefull for this you can kill someone and loot rss or you can gather tiles/lairs, the higher tile/lair you gather you gathering speed will automatically gets increased but to make sure to gather more faster just buy and use Gather Boost from alliance store,set dragon skills on gathring and research gathering boost \nYou need hell lot of rss so thats not enough if your not active and dont want to put marches everytime so follow below step to create farms accounts that will provide you rss withour event doing any efforts"
+
+
+    </string>
+
+    <string name="knightFarm">"Follow the above video to upgrade knight :)\n\n Knights are the most important soilders they work on growth, attacking and defending, use knight wisely to grow your city like if you wanna do any builds then set knight to Engineer for research set it to Magician. \n We can use knight to any specific position we want, so just lvl-up your knight and assign it wisely.
+
+        "   </string>
+
+    <string name="otherKnightTips">
+        1. Get atleast 2 knights to max level so you can assign them on Commander/Engineer for Attacking/Defending respectively.\n
+        2. While attacking use your max lvl knight on commander and send one max knight with attacking march.
+        3. Get your nobalhall to 20 to get extra 20% knight boost.
+
+    </string>
+
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -123,4 +172,12 @@
     </string>
     <string name="title_activity_knight_detail_screen">KnightDetailScreen</string>
     <string name="title_activity_knight_screen">KnightScreen</string>
+    <string name="title_activity_dragon_screen">DragonScreen</string>
+    <string name="title_activity_attacking_tricks_screen">AttackingTricksScreen</string>
+    <string name="rallyTips">Inorder to perform a rally, a rally leader should have good attacking city means thier research/skills/dragon accessories/knight all set on attack Two type of rally we can do \n1. One-hit  Rally \n2.Multi-Hit Rally</string>
+    <string name="onehitrally">If you wanna hit opponent only single time than its better the rally leader gets all the reinforcements and teleport near enemy in the last few secs </string>
+    <string name="multihitrally">For multi-hit rally, all the rally participents need to teleport near opponent so the rally leader start rally again and to protect from invadors they need to use thier marches to set camps to cover all space so that no one can teleport in that perticular area.</string>
+    <string name="title_activity_defending_tricks">DefendingTricks</string>
+    <string name="defendingTricks">Defense is the best offence, Its easy to defend then to attack so   </string>
+
 </resources>

@@ -17,10 +17,10 @@
 <resources>
     <string-array name="places">
         <item>Knight Upgrade Trick</item>
-        <item>Dragon Tricks</item>
+        <item>Monster Kill Tricks</item>
         <item>Resource Farming Tricks</item>
         <item>Attacking Tricks</item>
-        <item>Defensing Tricks</item>
+        <item>Defending Tricks</item>
         <item>Strategies</item>
     </string-array>
     <string-array name="place_desc">
@@ -91,10 +91,10 @@
     </array>-->
     <array name="places_picture">
         <item>@drawable/a</item>
-        <item>@drawable/b</item>
-        <item>@drawable/c</item>
-        <item>@drawable/d</item>
-        <item>@drawable/e</item>
+        <item>@drawable/d_drag</item>
+        <item>@drawable/rss</item>
+        <item>@drawable/atttack</item>
+        <item>@drawable/defend</item>
         <item>@drawable/f</item>
     </array>
 </resources>

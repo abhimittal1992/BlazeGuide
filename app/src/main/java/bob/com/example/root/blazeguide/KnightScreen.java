@@ -74,7 +74,7 @@ public class KnightScreen  extends YouTubeBaseActivity implements YouTubePlayer.
     }
 
     private void showMessage(String message) {
-        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+       // Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 
     private final class MyPlaybackEventListener implements YouTubePlayer.PlaybackEventListener {

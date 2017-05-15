@@ -34,4 +34,5 @@
     <dimen name="navheader_height">222dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
+    <dimen name="left_margin_36">36dp</dimen>
 </resources>

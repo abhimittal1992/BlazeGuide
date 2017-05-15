@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="bob.com.example.root.blazeguide">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -27,6 +28,19 @@
         <activity
             android:name=".KnightScreen"
             android:label="@string/title_activity_knight_screen"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DragonScreen"
+            android:label="@string/title_activity_dragon_screen"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ResourcesScreen" />
+        <activity
+            android:name=".AttackingTricksScreen"
+            android:label="@string/title_activity_attacking_tricks_screen"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DefendingTricks"
+            android:label="@string/title_activity_defending_tricks"
             android:theme="@style/AppTheme"></activity>
     </application>
 
