@@ -41,6 +41,14 @@
         <activity
             android:name=".DefendingTricks"
             android:label="@string/title_activity_defending_tricks"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BOBVideos"
+            android:label="@string/title_activity_bobvideos"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".kvk"
+            android:label="@string/title_activity_kvk"
             android:theme="@style/AppTheme"></activity>
     </application>
 

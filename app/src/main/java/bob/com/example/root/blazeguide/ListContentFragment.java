@@ -20,25 +20,34 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
+import android.os.StrictMode;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 /**
- * Provides UI for the view with Cards.
+ * Provides UI for the view with List.
  */
-public class CardContentFragment extends Fragment {
-    static Class[] screenArray = {KnightScreen.class, DragonScreen.class,ResourcesScreen.class,AttackingTricksScreen.class,DefendingTricks.class,kvk.class,BOBVideos.class};
+public class ListContentFragment extends Fragment {
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -48,88 +57,47 @@ public class CardContentFragment extends Fragment {
         recyclerView.setAdapter(adapter);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-
         return recyclerView;
     }
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public ImageView picture;
+        public ImageView avator;
         public TextView name;
         public TextView description;
         public ViewHolder(LayoutInflater inflater, ViewGroup parent) {
-            super(inflater.inflate(R.layout.item_card, parent, false));
-            picture = (ImageView) itemView.findViewById(R.id.card_image);
-            name = (TextView) itemView.findViewById(R.id.card_title);
-            description = (TextView) itemView.findViewById(R.id.card_text);
+            super(inflater.inflate(R.layout.item_list, parent, false));
+            avator = (ImageView) itemView.findViewById(R.id.list_avatar);
+            name = (TextView) itemView.findViewById(R.id.list_title);
+            description = (TextView) itemView.findViewById(R.id.list_desc);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Context context = v.getContext();
-                    try{
-                        getScreen(context,screenArray[getAdapterPosition()]);
+                     Context context = v.getContext();
+                    context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=M9l16G2zh_0")));
 
-                    }catch (Exception e){
-                         Intent intent = new Intent(context, DetailActivity.class);
-                        intent = new Intent(context, DetailActivity.class);
-                        intent.putExtra(DetailActivity.EXTRA_POSITION, getAdapterPosition());
-                        context.startActivity(intent);
-                    }
-                }
-            });
-            // Adding Snackbar to Action Button inside card
-            Button button = (Button)itemView.findViewById(R.id.action_button);
-            button.setOnClickListener(new View.OnClickListener(){
-                @Override
-                public void onClick(View v) {
-                    Snackbar.make(v, "Action is pressed",
-                            Snackbar.LENGTH_LONG).show();
-                }
-            });
-            ImageButton favoriteImageButton =
-                    (ImageButton) itemView.findViewById(R.id.favorite_button);
-            favoriteImageButton.setOnClickListener(new View.OnClickListener(){
-                @Override
-                public void onClick(View v) {
-                    Snackbar.make(v, "Added to Favorite",
-                            Snackbar.LENGTH_LONG).show();
-                }
-            });
-
-            ImageButton shareImageButton = (ImageButton) itemView.findViewById(R.id.share_button);
-            shareImageButton.setOnClickListener(new View.OnClickListener(){
-                @Override
-                public void onClick(View v) {
-                    Snackbar.make(v, "Share article",
-                            Snackbar.LENGTH_LONG).show();
                 }
             });
         }
     }
 
-    public static void getScreen(Context context, Class screen) {
-        Intent intent = new Intent(context, screen);
-        context.startActivity(intent);
-    }
     /**
      * Adapter to display recycler view.
      */
     public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
         // Set numbers of List in RecyclerView.
-        private static final int LENGTH = 7;
+        private static final int LENGTH = 18;
+
         private final String[] mPlaces;
         private final String[] mPlaceDesc;
-        private final Drawable[] mPlacePictures;
+        private final String[] mPlaceAvators;
+        private Context context;
+
         public ContentAdapter(Context context) {
             Resources resources = context.getResources();
             mPlaces = resources.getStringArray(R.array.places);
             mPlaceDesc = resources.getStringArray(R.array.place_desc);
-            TypedArray a = resources.obtainTypedArray(R.array.places_picture);
-            mPlacePictures = new Drawable[a.length()];
-            for (int i = 0; i < mPlacePictures.length; i++) {
-                mPlacePictures[i] = a.getDrawable(i);
-            }
-            a.recycle();
+            mPlaceAvators = resources.getStringArray(R.array.placesAvatar);
+            this.context=context;
         }
-
         @Override
         public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             return new ViewHolder(LayoutInflater.from(parent.getContext()), parent);
@@ -137,7 +105,7 @@ public class CardContentFragment extends Fragment {
 
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
-            holder.picture.setImageDrawable(mPlacePictures[position % mPlacePictures.length]);
+            Picasso.with(context).load(mPlaceAvators[position% mPlaceAvators.length]).into(holder.avator);
             holder.name.setText(mPlaces[position % mPlaces.length]);
             holder.description.setText(mPlaceDesc[position % mPlaceDesc.length]);
         }
@@ -147,5 +115,6 @@ public class CardContentFragment extends Fragment {
             return LENGTH;
         }
     }
-}
 
+
+}

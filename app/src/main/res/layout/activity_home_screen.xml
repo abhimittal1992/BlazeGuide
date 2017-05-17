@@ -38,10 +38,37 @@ android:layout_height="match_parent"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
 </android.support.design.widget.AppBarLayout>
+
 <android.support.v4.view.ViewPager
     android:id="@+id/viewpager"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    />
+    <!-- Footer aligned to bottom -->
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#d6b042"
+        android:gravity="center"
+        app:layout_anchor="@id/viewpager"
+        app:layout_anchorGravity="bottom"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=" ©2017_STAR_merCY"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            app:layout_anchorGravity="bottom"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>

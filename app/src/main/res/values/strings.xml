@@ -179,5 +179,7 @@
     <string name="multihitrally">For multi-hit rally, all the rally participents need to teleport near opponent so the rally leader start rally again and to protect from invadors they need to use thier marches to set camps to cover all space so that no one can teleport in that perticular area.</string>
     <string name="title_activity_defending_tricks">DefendingTricks</string>
     <string name="defendingTricks">Defense is the best offence, Its easy to defend then to attack so   </string>
+    <string name="title_activity_bobvideos">BOBVideos</string>
+    <string name="title_activity_kvk">kvk</string>
 
 </resources>
