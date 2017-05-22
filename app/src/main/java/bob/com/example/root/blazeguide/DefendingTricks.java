@@ -1,5 +1,6 @@
 package bob.com.example.root.blazeguide;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
@@ -15,6 +16,9 @@ public class DefendingTricks extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().setStatusBarColor(getResources().getColor(android.R.color.black));
+        }
         setContentView(R.layout.activity_defending_tricks);
         Toolbar toolbar = (Toolbar) findViewById(R.id.defendToolbar);
         setSupportActionBar(toolbar);

@@ -1,6 +1,7 @@
 package bob.com.example.root.blazeguide;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -29,6 +30,9 @@ public class KnightScreen  extends YouTubeBaseActivity implements YouTubePlayer.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().setStatusBarColor(getResources().getColor(android.R.color.black));
+        }
         setContentView(R.layout.activity_knight_screen);
 
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);

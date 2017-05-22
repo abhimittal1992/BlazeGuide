@@ -23,6 +23,8 @@
         <item>Defending Tricks</item>
         <item>KvK</item>
         <item>BOB Videos</item>
+        <item>Gem Drive</item>
+
 
     </string-array>
     <string-array name="place_desc">
@@ -101,15 +103,38 @@
         <item>@drawable/defend</item>
         <item>@drawable/kvk</item>
         <item>@drawable/youtube</item>
+        <item>@drawable/gem</item>
     </array>
 
     <string-array name="placesAvatar">
         <item>http://img.youtube.com/vi/M9l16G2zh_0/default.jpg</item>
+        <item>http://img.youtube.com/vi/GqG-YpbGNUw/default.jpg</item>
+        <item>http://img.youtube.com/vi/8D1URtm6KsE/default.jpg</item>
         <item>http://img.youtube.com/vi/eMb6smUretk/default.jpg</item>
-        <item>http://img.youtube.com/vi/M9l16G2zh_0/default.jpg</item>
-        <item>http://img.youtube.com/vi/eMb6smUretk/default.jpg</item>
-        <item>http://img.youtube.com/vi/M9l16G2zh_0/default.jpg</item>
-        <item>http://img.youtube.com/vi/eMb6smUretk/default.jpg</item>
+        <item>http://img.youtube.com/vi/xMyiqp2tivg/default.jpg</item>
+        <item>http://img.youtube.com/vi/D7PHfI8oiOc/default.jpg</item>
 
     </string-array>
+    <string-array name="titles">
+    <item>BOB Knight upgrade tricks</item>
+    <item>BOB Gameplay part-1</item>
+    <item>BOB Gameplay part-2</item>
+    <item>BOB Gameplay part-3</item>
+    <item>BOB Walkthrough part-4</item>
+    <item>BOB gameplay part-5</item></string-array>
+
+
+
+    <string-array name="title_desc">
+        <item>Watch how to upgrade knight</item>
+        <item>Gameplay of blaze of battle</item>
+        <item>Resource is your 1st priority if you want to</item>
+        <item>Attacking tips</item>
+        <item>Defence is the best offence</item>
+        <item>Kingdom Vs Kingdom Tips.</item>
+        <item>Watch Youtube Videos of Blaze of Battle</item>
+
+
+
+</string-array>
 </resources>

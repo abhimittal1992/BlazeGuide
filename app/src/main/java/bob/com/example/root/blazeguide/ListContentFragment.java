@@ -84,7 +84,7 @@ public class ListContentFragment extends Fragment {
      */
     public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
         // Set numbers of List in RecyclerView.
-        private static final int LENGTH = 18;
+        private static final int LENGTH = 6;
 
         private final String[] mPlaces;
         private final String[] mPlaceDesc;
@@ -93,8 +93,8 @@ public class ListContentFragment extends Fragment {
 
         public ContentAdapter(Context context) {
             Resources resources = context.getResources();
-            mPlaces = resources.getStringArray(R.array.places);
-            mPlaceDesc = resources.getStringArray(R.array.place_desc);
+            mPlaces = resources.getStringArray(R.array.titles);
+            mPlaceDesc = resources.getStringArray(R.array.title_desc);
             mPlaceAvators = resources.getStringArray(R.array.placesAvatar);
             this.context=context;
         }

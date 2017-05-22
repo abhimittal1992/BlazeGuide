@@ -3,6 +3,8 @@
     package="bob.com.example.root.blazeguide">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
 
     <application
         android:allowBackup="true"
@@ -32,23 +34,63 @@
         <activity
             android:name=".DragonScreen"
             android:label="@string/title_activity_dragon_screen"
+            android:parentActivityName=".HomeScreen"
             android:theme="@style/AppTheme" />
-        <activity android:name=".ResourcesScreen" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".HomeScreen" />
+
+        <activity
+            android:name=".ResourcesScreen"
+            android:parentActivityName=".HomeScreen" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".HomeScreen" />
+
         <activity
             android:name=".AttackingTricksScreen"
             android:label="@string/title_activity_attacking_tricks_screen"
+            android:parentActivityName=".HomeScreen"
             android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".HomeScreen" />
+
         <activity
             android:name=".DefendingTricks"
             android:label="@string/title_activity_defending_tricks"
+            android:parentActivityName=".HomeScreen"
             android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".HomeScreen" />
+
         <activity
             android:name=".BOBVideos"
             android:label="@string/title_activity_bobvideos"
+            android:parentActivityName=".HomeScreen"
             android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".HomeScreen" />
+
         <activity
             android:name=".kvk"
             android:label="@string/title_activity_kvk"
+            android:parentActivityName=".HomeScreen"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeScreen" />
+        </activity>
+        <activity
+            android:name=".GemDrive"
+            android:label="@string/title_activity_gem_drive"
             android:theme="@style/AppTheme"></activity>
     </application>
 

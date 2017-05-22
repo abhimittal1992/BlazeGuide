@@ -79,44 +79,58 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/md_keylines"
 
-                android:text="Rally Tips"
+                android:text="Counter Rally Trick"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles" />
 
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rallyTips"
+                android:text="@string/counterRally"
                 android:textColor="#FFFFFF"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/md_keylines"
 
-                android:text="One-Hit Rally"
+                android:text="Make a Trap City"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles" />
 
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/onehitrally"
+                android:text="@string/trapCity"
                 android:textColor="#FFFFFF"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/md_keylines"
 
-                android:text="Multi-Hit Rally"
+                android:text="Hospital Cap= Troops Cap"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles" />
 
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/multihitrally"
+                android:text="@string/hospitalCaptroopcap"
                 android:textColor="#FFFFFF"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/md_keylines"
+
+                android:text="Perform Lure/Defend/Heal...Repeat"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ldhrepeat"
+                android:textColor="#FFFFFF"/>
 
 
 

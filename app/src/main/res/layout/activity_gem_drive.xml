@@ -19,7 +19,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="bob.com.example.root.blazeguide.ResourcesScreen">
+    tools:context="bob.com.example.root.blazeguide.GemDrive">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
@@ -29,7 +29,7 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         <android.support.design.widget.CollapsingToolbarLayout
-            android:id="@+id/attack_collapsing_toolbar"
+            android:id="@+id/gem_collapsing_toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
@@ -40,17 +40,16 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
-                android:id="@+id/rssimage"
+                android:id="@+id/gemimage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/atttack"
-
+                android:background="@drawable/gem"
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
                 app:layout_collapseMode="parallax" />
 
             <android.support.v7.widget.Toolbar
-                android:id="@+id/attackToolbar"
+                android:id="@+id/gemdrivetoolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
@@ -79,126 +78,132 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/md_keylines"
 
-                android:text="Attacking Tips"
+                android:text="How to make gems"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles" />
 
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rssfarming"
+                android:text="@string/makegems"
                 android:textColor="#FFFFFF"/>
+
             <TextView
+                android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
                 android:layout_marginBottom="@dimen/md_keylines"
-
-                android:text="Rally Tips"
+                android:text="Monsters/Lairs"
                 android:textColor="#FFFF00"
-                android:textSize="@dimen/article_titles" />
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
 
             <TextView
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/rallyTips"
-                android:textColor="#FFFFFF"/>
+                android:layout_height="102dp"
+                android:text="@string/efficientFarm"
+                android:textColor="#FFFFFF" />
+
             <TextView
+                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
                 android:layout_marginBottom="@dimen/md_keylines"
-
-                android:text="One-Hit Rally"
+                android:text="Alliance Gifts"
                 android:textColor="#FFFF00"
-                android:textSize="@dimen/article_titles" />
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
 
             <TextView
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/onehitrally"
-                android:textColor="#FFFFFF"/>
+                android:layout_height="102dp"
+                android:text="@string/efficientFarm"
+                android:textColor="#FFFFFF" />
+
             <TextView
+                android:id="@+id/textVie3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
                 android:layout_marginBottom="@dimen/md_keylines"
-
-                android:text="Multi-Hit Rally"
+                android:text="Gem Palace"
                 android:textColor="#FFFF00"
-                android:textSize="@dimen/article_titles" />
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
 
             <TextView
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/multihitrally"
-                android:textColor="#FFFFFF"/>
+                android:layout_height="102dp"
+                android:text="@string/efficientFarm"
+                android:textColor="#FFFFFF" />
 
             <TextView
+                android:id="@+id/textVie4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
                 android:layout_marginBottom="@dimen/md_keylines"
-
-                android:text="Solo Attacking Tips"
+                android:text="Events"
                 android:textColor="#FFFF00"
-                android:textSize="@dimen/article_titles" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/soloattacking"
-                android:textColor="#FFFFFF"/>
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/b" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/soloattackpart2"
-                android:textColor="#FFFFFF"/>
-            <ImageView
-                android:id="@+id/t4attack1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/b" />
-            <ImageView
-                android:id="@+id/t4attack2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/b" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/md_keylines"
-
-                android:text="Attack Preparation"
-                android:textColor="#FFFF00"
-                android:textSize="@dimen/article_titles" />
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
 
             <TextView
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/attackpreparation"
-                android:textColor="#FFFFFF"/>
-
+                android:layout_height="102dp"
+                android:text="@string/efficientFarm"
+                android:textColor="#FFFFFF" />
             <TextView
+                android:id="@+id/textVie5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
                 android:layout_marginBottom="@dimen/md_keylines"
-
-                android:text="Meat Shield"
+                android:text="Trail Fields"
                 android:textColor="#FFFF00"
-                android:textSize="@dimen/article_titles" />
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
 
             <TextView
                 android:layout_width="fill_parent"
+                android:layout_height="102dp"
+                android:text="@string/efficientFarm"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textVie6"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/meatShield"
-                android:textColor="#FFFFFF"/>
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/md_keylines"
+                android:text="Alliance Missions"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
 
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="102dp"
+                android:text="@string/efficientFarm"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textVie7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/md_keylines"
+                android:text="Mystery Gifts"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
 
-
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="102dp"
+                android:text="@string/efficientFarm"
+                android:textColor="#FFFFFF" />
 
 
         </LinearLayout>

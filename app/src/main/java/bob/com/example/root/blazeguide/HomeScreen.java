@@ -1,5 +1,9 @@
 package bob.com.example.root.blazeguide;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Build;
+import android.os.Parcelable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -18,7 +22,14 @@ public class HomeScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_screen);
+
+        if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().setStatusBarColor(getResources().getColor(android.R.color.black));
+        }
+        if(!getSharedPreferences("APP_PREFERENCE", Activity.MODE_PRIVATE).getBoolean("IS_ICON_CREATED", false)){
+            createShortCut();
+            getSharedPreferences("APP_PREFERENCE", Activity.MODE_PRIVATE).edit().putBoolean("IS_ICON_CREATED", true).commit();
+        }        setContentView(R.layout.activity_home_screen);
         // Adding Toolbar to Main screen
         Toolbar toolbar = (Toolbar) findViewById(R.id.hometoolbar);
         setSupportActionBar(toolbar);
@@ -28,6 +39,19 @@ public class HomeScreen extends AppCompatActivity {
         // Set Tabs inside Toolbar
        /* TabLayout tabs = (TabLayout) findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);*/
+    }
+        public void createShortCut(){
+            Intent shortcutIntent = new Intent(getApplicationContext(), HomeScreen.class);
+            shortcutIntent.setAction(Intent.ACTION_MAIN);
+            Intent addIntent = new Intent();
+            addIntent.putExtra(Intent.EXTRA_SHORTCUT_INTENT, shortcutIntent);
+            addIntent.putExtra(Intent.EXTRA_SHORTCUT_NAME, "Blaze of Battle Tricks");
+            addIntent.putExtra(Intent.EXTRA_SHORTCUT_ICON_RESOURCE, Intent.ShortcutIconResource.fromContext(getApplicationContext(), R.mipmap.ic_launcher));
+
+            addIntent.setAction("com.android.launcher.action.INSTALL_SHORTCUT");
+            addIntent.putExtra("duplicate", false);  //may it's already there so don't duplicate
+            getApplicationContext().sendBroadcast(addIntent);
+
     }
     // Add Fragments to Tabs
     private void setupViewPager(ViewPager viewPager) {

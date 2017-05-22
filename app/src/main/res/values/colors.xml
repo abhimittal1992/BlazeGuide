@@ -21,6 +21,7 @@
     <color name="button_grey">#757575</color>
     <color name="black">#000000</color>
     <color name="yellow">#FFFF00</color>
+    <color name="metallicGold">#D4AF37</color>
 
 
 </resources>
