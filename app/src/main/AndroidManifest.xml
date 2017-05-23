@@ -91,6 +91,10 @@
         <activity
             android:name=".GemDrive"
             android:label="@string/title_activity_gem_drive"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BuildCalculator"
+            android:label="@string/title_activity_build_calculator"
             android:theme="@style/AppTheme"></activity>
     </application>
 

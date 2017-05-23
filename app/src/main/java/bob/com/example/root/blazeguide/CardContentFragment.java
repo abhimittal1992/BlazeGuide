@@ -38,7 +38,7 @@ import android.widget.TextView;
  * Provides UI for the view with Cards.
  */
 public class CardContentFragment extends Fragment {
-    static Class[] screenArray = {KnightScreen.class, DragonScreen.class,ResourcesScreen.class,AttackingTricksScreen.class,DefendingTricks.class,kvk.class,BOBVideos.class, GemDrive.class};
+    static Class[] screenArray = {KnightScreen.class, DragonScreen.class,ResourcesScreen.class,AttackingTricksScreen.class,DefendingTricks.class,kvk.class,BOBVideos.class, GemDrive.class,BuildCalculator.class};
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -88,7 +88,7 @@ public class CardContentFragment extends Fragment {
      */
     public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
         // Set numbers of List in RecyclerView.
-        private static final int LENGTH = 8;
+        private static final int LENGTH = 9;
         private final String[] mPlaces;
         private final String[] mPlaceDesc;
         private final Drawable[] mPlacePictures;

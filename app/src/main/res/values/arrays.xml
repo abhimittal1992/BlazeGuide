@@ -24,6 +24,7 @@
         <item>KvK</item>
         <item>BOB Videos</item>
         <item>Gem Drive</item>
+        <item>Build Calculator</item>
 
 
     </string-array>
@@ -36,6 +37,10 @@
         <item>Defence is the best offence</item>
         <item>Kingdom Vs Kingdom Tips.</item>
         <item>Watch Youtube Videos of Blaze of Battle</item>
+        <item>How to make gems faster</item>
+        <item>Calculate your build time</item>
+
+
 
     </string-array>
     <string-array name="place_details">

@@ -47,7 +47,7 @@
 
     <string name="efficientFarm">"To make a farm account you just have to click on the accounts->switch account->start new game \n\n After starting new game just complete the tutorial and use supreme teleport to get into your main kingdom, remember you can only use supreme teleport before cc-5 so dont upgrade much before teleporting to your kingdom \n Lets see how we can create a good resource producing farms."
     </string>
-<string name="makegems">Gems are the core part of any war this is the mail revenue generator for developers thats why take release many packs accouding to user so they can buy it with real money and upgrade faster,but if you dont wanna spend any money then here are some tips to make gems daily.</string>
+    <string name="makegems">Gems are the core part of any war this is the mail revenue generator for developers thats why take release many packs accouding to user so they can buy it with real money and upgrade faster,but if you dont wanna spend any money then here are some tips to make gems daily.</string>
 
     <string name="foodFarm">"Food Farm is easy to create and will get you lot of food that you dont have to farm, to make your farm a good food producer just follow below steps: \n\n 1. Upgrade cc to 10 atleast ideally till cc-15 is best so you can kill lvl-3 monster as well. \n 2. Construct 21 food farms and upgrade it to max. \n 3. Research food production \n 4. Set Lord skills on food production. \n 5. Upgrade dragon and forge some good accessories for food production "
 
@@ -192,4 +192,5 @@
     <string name="meatShield">MeatShield is very important if you wanna secure your higher lvl troops means if you have t3s than train some t1 troops as a meatshield while attacking someone and if you have t4s than use t3 as meat shield to be very precise suppose your march capacity is 300k and your attacking someone than use 15-20k t1 troops rest t3s the benefit is only your t1 troops get killed and your t3 will get secured</string>
     <string name="attackpreparation">To perform a good attack you need to prepare for it first, dont rush and send marches in hurry.\n 1.Use march boost to increase the size of army you can send at a time \n 2. You need to have atleast two high lvl knight, assing one in commander and send one with your march to attack\n 3. Use Attack Boost\n 4. Lord and dragon kills should be on troop attack</string>
     <string name="title_activity_gem_drive">GemDrive</string>
+    <string name="title_activity_build_calculator">BuildCalculator</string>
 </resources>
