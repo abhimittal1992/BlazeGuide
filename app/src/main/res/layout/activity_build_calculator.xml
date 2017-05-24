@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="bob.com.example.root.blazeguide.BuildCalculator">
+    tools:context="bob.com.example.root.blazeguide.BuildTimeCalculator">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -33,16 +33,15 @@
 
         <TextView
             android:id="@+id/head"
-            style="@style/TextAppearance.Sans"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Calculate Build Time"
-            android:textSize="20dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignStart="@+id/tv_Username"
-            android:layout_marginStart="34dp"
+            android:layout_marginTop="15dp"
+            android:text="Manage your builds by pre estimating time :) for  build/research  just enter original days and your construction/research boost :)"
+            android:textSize="18dp"
             android:textColor="#FFFFFF"
-            />
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            android:layout_alignParentStart="true" />
 
         <TextView
             android:id="@+id/tv_Username"
@@ -51,12 +50,14 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="18dp"
-            android:layout_marginTop="55dp"
+            android:layout_marginTop="150dp"
             android:text="Original build days"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="18dp"/>
 
         <EditText
-            android:id="@+id/et_Username"
+            android:id="@+id/originalTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/tv_Username"
@@ -65,7 +66,9 @@
             android:layout_toRightOf="@+id/tv_Username"
             android:ems="10"
             android:inputType="number"
-            android:textColor="#FFFFFF">
+            android:textColor="#FFFFFF"
+            android:maxLength="4"
+            android:layout_alignEnd="@+id/head">
 
             <requestFocus />
         </EditText>
@@ -75,30 +78,49 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/tv_Username"
-            android:layout_below="@+id/et_Username"
-            android:layout_marginTop="47dp"
-            android:text="Boost percentage"
-            android:textColor="#FFFFFF"/>
+            android:layout_below="@+id/originalTime"
+            android:layout_marginTop="30dp"
+            android:text="Build boost(%)"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="18dp"/>
 
         <EditText
-            android:id="@+id/et_Password"
+            android:id="@+id/boost"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/tv_Password"
             android:layout_alignBottom="@+id/tv_Password"
-            android:layout_alignLeft="@+id/et_Username"
             android:ems="10"
             android:inputType="number"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF"
+            android:layout_alignEnd="@+id/originalTime"
+            android:layout_alignStart="@+id/originalTime"
+            android:maxLength="3" />
 
         <Button
-            android:id="@+id/bt_SignIn"
+            android:id="@+id/calculate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/et_Password"
-            android:layout_centerHorizontal="true"
             android:layout_marginTop="17dp"
-            android:text="calculate time" />
+            android:text="calculate days"
+            android:layout_below="@+id/boost"
+            android:layout_toStartOf="@+id/boost" />
+
+        <TextView
+            android:id="@+id/buidResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:visibility="invisible"
+            android:textAlignment="center"
+            android:layout_marginEnd="9dp"
+            android:layout_below="@+id/calculate"
+            android:layout_alignEnd="@+id/calculate"
+            android:layout_marginTop="48dp" />
+
 
     </RelativeLayout>
 

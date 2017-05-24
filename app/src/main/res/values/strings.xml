@@ -191,6 +191,6 @@
 
     <string name="meatShield">MeatShield is very important if you wanna secure your higher lvl troops means if you have t3s than train some t1 troops as a meatshield while attacking someone and if you have t4s than use t3 as meat shield to be very precise suppose your march capacity is 300k and your attacking someone than use 15-20k t1 troops rest t3s the benefit is only your t1 troops get killed and your t3 will get secured</string>
     <string name="attackpreparation">To perform a good attack you need to prepare for it first, dont rush and send marches in hurry.\n 1.Use march boost to increase the size of army you can send at a time \n 2. You need to have atleast two high lvl knight, assing one in commander and send one with your march to attack\n 3. Use Attack Boost\n 4. Lord and dragon kills should be on troop attack</string>
-    <string name="title_activity_gem_drive">GemDrive</string>
-    <string name="title_activity_build_calculator">BuildCalculator</string>
+    <string name="title_activity_gem_drive">Gem Drive</string>
+    <string name="title_activity_build_calculator">Build Time Calculator</string>
 </resources>

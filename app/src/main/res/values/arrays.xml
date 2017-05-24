@@ -109,6 +109,8 @@
         <item>@drawable/kvk</item>
         <item>@drawable/youtube</item>
         <item>@drawable/gem</item>
+        <item>@drawable/calculate</item>
+
     </array>
 
     <string-array name="placesAvatar">
