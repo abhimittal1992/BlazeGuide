@@ -34,10 +34,10 @@
     <string name="title_activity_knight_upgrade_page">KnightUpgradePage</string>
     <string name="monsterkill">"Killing a level-3 or higher monster is quite difficult unless you have good dragon research and equipment. \n\n"
 
-    "First you need to upgrade your dragon, make sure you have 8 points in each dragon combat research to hit a lvl-3+ with good damage and  forge some dragon combat accessories if you have chuthlu's items and wear them whenever you hit a mob \n\n"
-   "Ok after this Letz see how we can kill a mob quickly \n"
-        "In order to kill a mob quickly people do make some mistakes like doing max attack every time, you need to boost the alliance bonus by doing single hit everytime \n\n"
-        "Team up to kill a lvl-3+ mob with 3 players and do all single attacks that will boost the allinace bonus and get you mob killed quickly"
+    "First you need to upgrade your dragon, make sure you have atleast 7/10 points in each dragon combat research to hit a lvl-3+ with good damage and  forge some dragon combat accessories if you have chuthlu's/Eater Bunny items,wear them whenever you hit a monster \n\n"
+   "Ok after this Lets see how we can kill a monster quickly \n"
+        "In order to kill a monster quickly people  make some mistakes like doing max attack every time, you need to boost the alliance bonus by doing single hits \n\n"
+        "Team up to kill a lvl-3+ mob with 3 players and do all single attacks that will boost the allinace bonus and get you mob killed quickly \n TIP: Use your farm accounts to kill monsters with your team mates ask them to use thier farm accounts if each player got 1 farm account so he can use 2 dragons(farm and main), 3 players can have 6 dragons to attack a monster that will be really helpful"
     </string>
     <string name="getElites">"When you kill a monster your not sure that it will turn into an elite or not, So as far i have researched elite monsters are spawn in same location everytime, so whenever a monsters turn into elite one just BookMark that location so if u find any other mob in that location after sometime there is a 60-70% possibilty you will get an elite again :)
     </string>
@@ -49,23 +49,23 @@
     </string>
     <string name="makegems">Gems are the core resource of any war game this is the main revenue generator for developers thats why they release many packs according to users so they can buy it with real money and upgrade faster,but if you dont wanna spend any money then here are some tips to make gems daily.</string>
 
-    <string name="foodFarm">"Food Farm is easy to create and will get you lot of food that you dont have to farm, to make your farm a good food producer just follow below steps: \n\n 1. Upgrade cc to 10 atleast ideally till cc-15 is best so you can kill lvl-3 monster as well. \n 2. Construct 21 food farms and upgrade it to max. \n 3. Research food production \n 4. Set Lord skills on food production. \n 5. Upgrade dragon and forge some good accessories for food production "
-
-
+    <string name="foodFarm">"Food Farm is easy to create and will get you lot of food that you dont have to gather any, to make your farm a good food producer just follow below steps: \n\n 1. Upgrade cc to 10 atleast preferably till cc-15 is best so you can kill lvl-3 monster as well. \n 2. Construct 21 food farms and upgrade it to max. \n 3. Research food production \n 4. Set Lord skills on food production. \n 5. Upgrade dragon and forge some good accessories for food production \n 6. Assign Knight on resource production \n 7. Activate VIP to get resource production boost"
     </string>
+    <string name="otherFarms">You can make farms accounts for wood/stone/iron as well just follow the same step given for food fame the only problem is that you cant get any dragon accessory boost for these resources. </string>
     <string name="monsterandlair">1. HIT MONSTERS: You get gifts everytime if you attack a monster gift level depends on the monster level means level-4 monster will drop higher level gifts than level-3 monster.you also u get gems by attacking monsters. HIT ELITE MONSTERS to get more gems.  </string>
-    <string name="monsterandlair2">2. GATHER LAIRS: Gather as many lairs as you can per day to make more gems, reset dragon skills on gatherings so you can gather quickly\n\n Lvl-1 Lair gives 50  gems\n Lvl-2 Lair gives 100 gems\n Lvl-3 Lair gives 300 gems\n Lvl-4 Lair gives 900 gems\n Lvl-5 Lair gives 1500 gems\n Lvl-6 Lair gives 3000 gems\n\n TRICK :-\nIts too rare to get elite from any monster so here is the TRICK TO TURNING A MONSTER INTO ELITE ONE its works 3/5 times monstly elites appears on the same location so everytime you get a elite monster just BOOKMARK THAT LOCATION so that in near future if any mob appear on that location again you will get elite monster too, its tested and works :) </string>
-    <string name="otherFarms">"For others follow same steps as for food farm but you hardly get any dragon equipement for other resource boost"
+    <string name="monsterandlair2">2. GATHER LAIRS: Gather as many lairs as you can per day to make more gems, reset dragon skills on gatherings so you can gather quickly\n\n Lvl-1 Lair gives 50  gems\n Lvl-2 Lair gives 100 gems\n Lvl-3 Lair gives 300 gems\n Lvl-4 Lair gives 900 gems\n Lvl-5 Lair gives 1500 gems\n Lvl-6 Lair gives 3000 gems </string>
 
-    </string>
+
     <string name="alliancegifts">Dont forget to collect alliance gifts each time you kill a monster you get a alliance gift you can get gems from these gifts as well.\n Complete alliance missions to get gold alliance gifts sometime it gives 300-400 gems</string>
 
     <string name="goldFarmm">"You dont need any specific account for gold prodution. Yes thats the advantage of it, if you create above mentioned farms then all you need to do is construct houses for gold production and research gold production you will get gold from all your farm accounts."
 
 
     </string>
+    <string name="bank">After creating farm accounts you have to create a bank or use one of the farm account to be a bank because your farm accounts have some production capacity after its full they stop producing so you have to regularly transfer rss to your bank so that your farm account can start producing again :)\n You also need most gems in your farm so you can keep it safe from attackers so make sure you have some troops in your farm account to you can gather lairs for gems</string>
+    <string name="desert">You can get level-6 tiles only on desert so port at the edge of the desert so that you can take shield and start gathering tiles to get maximum resources.</string>
 <string name="gemPalace">You can build gem palace if your civil center is level-9 or up. Just Dig gems for 1 day only Yes guys dont go with 3 days/6 days/12 days Calculation has been done you will get 450 gems per day and this is max you can get.</string>
-    <string name="rssfarming">"Resources are the most important part of any war game, so you just always want to be resourcefull for this you can kill someone and loot rss or you can gather tiles/lairs, the higher tile/lair you gather you gathering speed will automatically gets increased but to make sure to gather more faster just buy and use Gather Boost from alliance store,set dragon skills on gathring and research gathering boost \nYou need hell lot of rss so thats not enough if your not active and dont want to put marches everytime so follow below step to create farms accounts that will provide you rss withour event doing any efforts"
+    <string name="rssfarming">"Resources are the most important part of any war game, To get resources  you can either attack someone and loot rss or you can gather tiles/lairs, HIGHER LEVEL TILES CAN BE GATHER QUICKLY COMPARE TO THE LOWER LVL ONES to gather more faster \n1. Buy and use Gather Boost from alliance store\n2.  Set dragon skills on gatherings and research gathering boost\n Tip: Just create some farm accounts if you want regular rss supply "
 
 
     </string>

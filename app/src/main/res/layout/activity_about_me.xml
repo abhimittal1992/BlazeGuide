@@ -36,12 +36,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="Manage your builds by pre estimating time :) for  build/research  just enter original days and your construction/research boost :)"
+            android:text="Hey folks !! This guide is not for the beginner if you have just started playing bob so get used to it get some bacis knowledge of this game then come here and read the tips :) \n ThankYou  "
             android:textSize="18dp"
             android:textColor="#FFFFFF"
             android:fontFamily="sans-serif-light"
             android:textAlignment="center"
             android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="Created By"
+            android:textColor="@color/metallicGold"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Abhishek Mittal(_STAR_merCY)"
+            android:textColor="@color/metallicGold"/>
 
 
 

@@ -16,9 +16,6 @@ public class kvk extends AppCompatActivity {
         if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP) {
             getWindow().setStatusBarColor(getResources().getColor(android.R.color.black));
         }
-        setContentView(R.layout.activity_kvk);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
 
     }

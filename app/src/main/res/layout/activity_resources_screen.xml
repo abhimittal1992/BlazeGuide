@@ -121,6 +121,13 @@ tools:context="bob.com.example.root.blazeguide.ResourcesScreen">
             android:layout_height="wrap_content"
             android:text="@string/foodFarm"
             android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/food" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -136,6 +143,12 @@ tools:context="bob.com.example.root.blazeguide.ResourcesScreen">
             android:layout_height="51dp"
             android:text="@string/otherFarms"
             android:textColor="#FFFFFF"/>
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/stone" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -150,6 +163,42 @@ tools:context="bob.com.example.root.blazeguide.ResourcesScreen">
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/goldFarmm"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/md_keylines"
+
+            android:layout_marginBottom="@dimen/md_keylines"
+            android:text="Create a Bank"
+            android:textColor="#FFFF00"
+            android:textSize="@dimen/article_titles" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bank"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/bank" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/md_keylines"
+
+            android:layout_marginBottom="@dimen/md_keylines"
+            android:text="Farming on desert"
+            android:textColor="#FFFF00"
+            android:textSize="@dimen/article_titles" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desert"
             android:textColor="#FFFFFF"/>
 
     </LinearLayout>
