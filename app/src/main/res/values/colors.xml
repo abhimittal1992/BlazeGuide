@@ -20,8 +20,8 @@
     <color name="medium_grey">#9E9E9E</color>
     <color name="button_grey">#757575</color>
     <color name="black">#000000</color>
-    <color name="yellow">#FFFF00</color>
-    <color name="metallicGold">#D4AF37</color>
+    <color name="yellow">#dfa42c</color>
+    <color name="metallicGold">#dfa42c</color>
 
 
 </resources>

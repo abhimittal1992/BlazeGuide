@@ -23,17 +23,14 @@ public class BOBVideos extends AppCompatActivity {
         setContentView(R.layout.activity_bobvideos);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);   ViewPager viewPager = (ViewPager) findViewById(R.id.viewpagerForList);
-        setupViewPager(viewPager);// ListContentFragment l1  = new ListContentFragment();
-
-
+        setupViewPager(viewPager);
     }
 
     // Add Fragments to Tabs
         private void setupViewPager(ViewPager viewPager) {
         HomeScreen.Adapter adapter = new HomeScreen.Adapter(getSupportFragmentManager());
-       /* adapter.addFragment(new ListContentFragment(), "List");
-        adapter.addFragment(new TileContentFragment(), "Tile");*/
-            adapter.addFragment(new ListContentFragment(), "List");
+
+       adapter.addFragment(new ListContentFragment(), "List");
         viewPager.setAdapter(adapter);
     }
 

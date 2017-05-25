@@ -36,7 +36,8 @@
         android:layout_toRightOf="@+id/list_avatar"
         tools:text="@string/item_title"
         android:textAppearance="?attr/textAppearanceListItem"
-        android:textSize="@dimen/article_subheading" />
+        android:textSize="@dimen/article_subheading"
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/list_desc"

@@ -56,17 +56,17 @@
         <TextView
             android:id="@+id/card_text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_below="@+id/card_image"
             android:layout_marginLeft="@dimen/md_keylines"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="14dp"
             android:layout_marginRight="@dimen/md_keylines"
             tools:text="@string/item_desc"
             android:ellipsize="end"
             android:singleLine="true"
             android:textColor="@color/white"
-            android:textSize="@dimen/article_subheading" />
+            android:textSize="@dimen/article_subheading"
+            android:gravity="center_vertical"
+            />
 
     </RelativeLayout>
 

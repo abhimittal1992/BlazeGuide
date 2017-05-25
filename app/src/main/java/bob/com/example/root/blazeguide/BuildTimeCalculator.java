@@ -23,12 +23,12 @@ public class BuildTimeCalculator extends AppCompatActivity implements OnClickLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_build_calculator);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.buildtoolbar);
+        setSupportActionBar(toolbar);
         if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP) {
             getWindow().setStatusBarColor(getResources().getColor(android.R.color.black));
         }
-        setContentView(R.layout.activity_build_calculator);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
 
 

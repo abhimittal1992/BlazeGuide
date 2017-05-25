@@ -20,7 +20,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 android:id="@+id/main_content"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="#560607"
 >
 
 <android.support.design.widget.AppBarLayout
@@ -52,7 +52,7 @@ android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="#d6b042"
+        android:background="#dfa42c"
         android:gravity="center"
         app:layout_anchor="@id/viewpager"
         app:layout_anchorGravity="bottom"
@@ -70,5 +70,18 @@ android:layout_height="match_parent"
             />
 
     </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floaticonaboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:src="@drawable/about"
+        app:backgroundTint="#f5802b"
+       />
+
+
+
 
 </android.support.design.widget.CoordinatorLayout>
