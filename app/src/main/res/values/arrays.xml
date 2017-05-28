@@ -75,30 +75,41 @@
 
     <string-array name="placesAvatar">
         <item>http://img.youtube.com/vi/M9l16G2zh_0/default.jpg</item>
+        <item>http://img.youtube.com/vi/bfg7OgudGUY/default.jpg</item>
         <item>http://img.youtube.com/vi/GqG-YpbGNUw/default.jpg</item>
+        <item>http://img.youtube.com/vi/EPYQpolo_Jo/default.jpg</item>
         <item>http://img.youtube.com/vi/8D1URtm6KsE/default.jpg</item>
-        <item>http://img.youtube.com/vi/eMb6smUretk/default.jpg</item>
+        <item>http://img.youtube.com/vi/NIsrXMC4gLE/default.jpg</item>
+        <item>http://img.youtube.com/vi/G42-nxH5WBU/default.jpg</item>
         <item>http://img.youtube.com/vi/xMyiqp2tivg/default.jpg</item>
         <item>http://img.youtube.com/vi/D7PHfI8oiOc/default.jpg</item>
 
     </string-array>
     <string-array name="titles">
     <item>BOB Knight upgrade tricks</item>
-    <item>BOB Gameplay part-1</item>
-    <item>BOB Gameplay part-2</item>
-    <item>BOB Gameplay part-3</item>
-    <item>BOB Walkthrough part-4</item>
-    <item>BOB gameplay part-5</item></string-array>
+    <item>BOB Kvk Journey</item>
+    <item>BOB Gameplay</item>
+    <item>Blaze of Battle part 1 lets play</item>
+    <item>Blaze of Battle Android Gameplay</item>
+    <item>BEST MOBILE STRATEGY GAME EVER! BLAZE OF BATTLE!!!</item>
+    <item>Blaze Of Battle Monster Attacking Tips</item>
+        <item>Blaze of Battle Walkthrough P.4</item>
+        <item>Blaze of Battle - Gameplay Android - #1</item>
+
+    </string-array>
 
 
 
     <string-array name="title_desc">
         <item>Watch how to upgrade knight</item>
-        <item>Gameplay of blaze of battle</item>
-        <item>Resource is your 1st priority if you want to</item>
-        <item>Attacking tips</item>
-        <item>Defence is the best offence</item>
-        <item>Watch Youtube Videos of Blaze of Battle</item>
+        <item>Blaze of Battle KvK Journey of _STAR_merCY</item>
+        <item>BOB gameplay HD</item>
+        <item>Blaze of Battle Part-1 Gameplay android</item>
+        <item>Blaze of Battle Android Gameplay</item>
+        <item>Watch Blaze of battle strategic gameplay</item>
+        <item>How to kill a monster in BOB</item>
+        <item>Blaze of Battle Gameplay | Blaze of Battle Android iOS | Blaze of Battle Walkthrough P.4</item>
+        <item>Blaze of Battle - Gameplay Android - #1</item>
 
 
 

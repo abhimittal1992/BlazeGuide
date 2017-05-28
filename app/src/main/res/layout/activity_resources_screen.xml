@@ -140,7 +140,7 @@ tools:context="bob.com.example.root.blazeguide.ResourcesScreen">
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="51dp"
+            android:layout_height="wrap_content"
             android:text="@string/otherFarms"
             android:textColor="#FFFFFF"/>
         <ImageView
@@ -198,6 +198,7 @@ tools:context="bob.com.example.root.blazeguide.ResourcesScreen">
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:text="@string/desert"
             android:textColor="#FFFFFF"/>
 

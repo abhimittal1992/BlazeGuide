@@ -130,7 +130,131 @@
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 app:srcCompat="@drawable/chest" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginTop="@dimen/md_keylines"
+
+                android:text="Upgrade your dragon"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles" />
+
+
+            <TextView
+                android:id="@+id/upgradedragon"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/upgradeDragon"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginTop="@dimen/md_keylines"
+
+                android:text="Eater Bunnny Dragon Boost Items"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles" />
+
+
+            <TextView
+                android:id="@+id/eaterbunnny"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eaterbunny"
+                android:textColor="#FFFFFF"/>
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/eaterbunny1" />
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/eaterbunny2" />
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/eaterbunny3" />
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/eaterbunny4" />
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/eaterbunny5" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginTop="@dimen/md_keylines"
+
+                android:text="Cthulhu Items"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles" />
+
+
+            <TextView
+                android:id="@+id/chuulthu"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chuulthu"
+                android:textColor="#FFFFFF"/>
+            <ImageView
+                android:id="@+id/cthu1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/cthu1" />
+            <ImageView
+                android:id="@+id/cthu2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/cthu2" />
+            <ImageView
+                android:id="@+id/cthu3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/cthu3" />
+            <ImageView
+                android:id="@+id/cthu4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/cthu4" />
+            <ImageView
+                android:id="@+id/cthu5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/cthu5" />
+
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </android.support.design.widget.CoordinatorLayout>

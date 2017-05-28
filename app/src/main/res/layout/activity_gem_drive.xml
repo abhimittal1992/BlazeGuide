@@ -76,7 +76,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
 
                 android:text="How to make gems"
                 android:textColor="#FFFF00"
@@ -93,7 +93,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/md_keylines"
-                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
                 android:text="Monsters/Lairs"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles"
@@ -122,7 +122,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/md_keylines"
-                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
                 android:text="Alliance Gifts"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles"
@@ -131,7 +131,6 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="102dp"
-                android:layout_marginTop="10dp"
                 android:text="@string/alliancegifts"
                 android:textColor="#FFFFFF" />
 
@@ -140,7 +139,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/md_keylines"
-                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
                 android:text="Gem Palace"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles"
@@ -157,7 +156,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/md_keylines"
-                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
                 android:text="Events"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles"
@@ -173,24 +172,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/md_keylines"
-                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
                 android:text="Trail Fields"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles"
                 android:layout_weight="0.60" />
 
             <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="102dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="@string/trailFeilds"
                 android:textColor="#FFFFFF" />
-
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/solo" />
             <TextView
                 android:id="@+id/textVie6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/md_keylines"
-                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
                 android:text="Alliance Missions"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles"
@@ -198,7 +201,7 @@
 
             <TextView
                 android:layout_width="fill_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:text="@string/allianceMissions"
                 android:textColor="#FFFFFF" />
             <TextView
@@ -206,7 +209,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/md_keylines"
-                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
                 android:text="Mystery Gifts"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles"
@@ -222,17 +225,49 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/mystery" />
+
+            <TextView
+                android:id="@+id/textVie71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
+                android:text="Monster Event Max Gems Trick"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/monsterEvent"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textVie711"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
+                android:text="Kill Event Max Gems Trick"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/killevemt"
+                android:textColor="#FFFFFF" />
             <TextView
                 android:id="@+id/textVie9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/md_keylines"
-                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
                 android:text="How to use gems"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles"
                 android:layout_weight="0.60" />
-
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="102dp"

@@ -32,17 +32,15 @@
     </string>
     <string name="detail_location">"8 Rue Scribe, 75009 Paris, France"</string>
     <string name="title_activity_knight_upgrade_page">KnightUpgradePage</string>
-    <string name="monsterkill">"Killing a level-3 or higher monster is quite difficult unless you have good dragon research and equipment. \n\n"
-
-    "First you need to upgrade your dragon, make sure you have atleast 7/10 points in each dragon combat research to hit a lvl-3+ with good damage and  forge some dragon combat accessories if you have chuthlu's/Eater Bunny items,wear them whenever you hit a monster \n\n"
-   "Ok after this Lets see how we can kill a monster quickly \n"
-        "In order to kill a monster quickly people  make some mistakes like doing max attack every time, you need to boost the alliance bonus by doing single hits \n\n"
-        "Team up to kill a lvl-3+ mob with 3 players and do all single attacks that will boost the allinace bonus and get you mob killed quickly \n TIP: Use your farm accounts to kill monsters with your team mates ask them to use thier farm accounts if each player got 1 farm account so he can use 2 dragons(farm and main), 3 players can have 6 dragons to attack a monster that will be really helpful"
+    <string name="monsterkill">"Killing a level-3 or higher monster is quite difficult unless you have good dragon research and equipment. \n\nFirst you need to upgrade your dragon, make sure you have atleast 7/10 points in each dragon combat research to hit a lvl-3+ with good damage and  forge some dragon combat accessories if you have chuthlu's/Eater Bunny items,wear them whenever you hit a monster \n\n"
+   "After this Lets see how we can kill a monster quickly:\n\n"
+        "In order to kill a monster quickly people make mistakes like doing max attack every time,dont hit max attack button just boost the alliance bonus by doing single hits\n\n"
+        "Team up to kill a lvl-3+ mob with 3 players and do all single attacks that will boost the allinace bonus and get you mob killed quickly \n\nTIP: Use your farm accounts to kill monsters with your team mates ask them to use thier farm accounts if each player got 1 farm account so he can use 2 dragons(farm and main), 3 players can have 6 dragons to attack a monster that will be really helpful."
     </string>
     <string name="getElites">"When you kill a monster your not sure that it will turn into an elite or not, So as far i have researched elite monsters are spawn in same location everytime, so whenever a monsters turn into elite one just BookMark that location so if u find any other mob in that location after sometime there is a 60-70% possibilty you will get an elite again :)
     </string>
 
-    <string name="challenger_rewards">"Everyone loves to get challenger rewards specially when you working in a team to kill a monster but BOB made it totally random. It doesnt depend on anything like no of hits/first hit/last hit it ramdomlly allocate the challenger name"
+    <string name="challenger_rewards">"Everyone loves to get challenger rewards specially when you working in a team to kill a monster but BOB made it totally random. It doesn't depends on anything like no of hits/first hit/last hit it allocate the challenger name randomly,you can get good challenger rewards if you kill higher lvl monster."
     </string>
 
     <string name="efficientFarm">"To make a farm account you just have to click on the accounts->switch account->start new game \n\n After starting new game just complete the tutorial and use supreme teleport to get into your main kingdom, remember you can only use supreme teleport before cc-5 so dont upgrade much before teleporting to your kingdom \n Lets see how we can create a good resource producing farms."
@@ -51,40 +49,42 @@
 
     <string name="foodFarm">"Food Farm is easy to create and will get you lot of food that you dont have to gather any, to make your farm a good food producer just follow below steps: \n\n 1. Upgrade cc to 10 atleast preferably till cc-15 is best so you can kill lvl-3 monster as well. \n 2. Construct 21 food farms and upgrade it to max. \n 3. Research food production \n 4. Set Lord skills on food production. \n 5. Upgrade dragon and forge some good accessories for food production \n 6. Assign Knight on resource production \n 7. Activate VIP to get resource production boost"
     </string>
-    <string name="otherFarms">You can make farms accounts for wood/stone/iron as well just follow the same step given for food fame the only problem is that you cant get any dragon accessory boost for these resources. </string>
-    <string name="monsterandlair">1. HIT MONSTERS: You get gifts everytime if you attack a monster gift level depends on the monster level means level-4 monster will drop higher level gifts than level-3 monster.you also u get gems by attacking monsters. HIT ELITE MONSTERS to get more gems.  </string>
+    <string name="otherFarms">You can make farms accounts for wood/stone/iron as well just follow the same step given for food farm the only problem is that you cant get any dragon accessory boost for these resources. </string>
+    <string name="monsterandlair">1. HIT MONSTERS: You get gifts everytime if you attack a monster gift level depends on the monster level means level-4 monster will drop higher level gifts than level-3 monster, you also get gems by hitting monsters. ELITE MONSTERS have higher chance to drop gems.  </string>
     <string name="monsterandlair2">2. GATHER LAIRS: Gather as many lairs as you can per day to make more gems, reset dragon skills on gatherings so you can gather quickly\n\n Lvl-1 Lair gives 50  gems\n Lvl-2 Lair gives 100 gems\n Lvl-3 Lair gives 300 gems\n Lvl-4 Lair gives 900 gems\n Lvl-5 Lair gives 1500 gems\n Lvl-6 Lair gives 3000 gems </string>
 
-
-    <string name="alliancegifts">Dont forget to collect alliance gifts each time you kill a monster you get a alliance gift you can get gems from these gifts as well.\n Complete alliance missions to get gold alliance gifts sometime it gives 300-400 gems</string>
-
-    <string name="goldFarmm">"You dont need any specific account for gold prodution. Yes thats the advantage of it, if you create above mentioned farms then all you need to do is construct houses for gold production and research gold production you will get gold from all your farm accounts."
+<string name="upgradeDragon">You can upgrade your dragon by doing research and using dragon xp there is one more way to make your dragon stronger is to forge some equipments</string>
+    <string name="alliancegifts">Dont forget to collect alliance gifts each time you kill a monster you get a alliance gift you can get gems from these gifts as well.\nComplete alliance missions to get gold alliance gifts sometime it gives 300-400 gems</string>
+<string name="eaterbunny">Eater bunny equipments are good for dragon boost forge these equipments listed below</string>
+    <string name="goldFarmm">"You dont need any specific account for gold prodution. Yes thats the advantage of it, if you create above mentioned farms then all you need to do is construct houses for gold production, research gold production and can ever forge some gold production dragon equipments you will get gold from all your farm accounts."
 
 
     </string>
-    <string name="bank">After creating farm accounts you have to create a bank or use one of the farm account to be a bank because your farm accounts have some production capacity after its full they stop producing so you have to regularly transfer rss to your bank so that your farm account can start producing again :)\n You also need most gems in your farm so you can keep it safe from attackers so make sure you have some troops in your farm account to you can gather lairs for gems</string>
+    <string name="chuulthu">Cthulhu Equipemets are also  good for dragon booost listed below</string>
+    <string name="bank">After creating farm accounts you have to create a bank or use one of the farm account to be a bank because your farm accounts have some production capacity after its full they will stop producing so you have to regularly transfer rss to your bank so that your farm account can start producing again :)\nYou also need most gems in your farm so you can keep it safe from attackers so make sure you have some troops in your farm account to you can gather lairs for gems</string>
     <string name="desert">You can get level-6 tiles only on desert so port at the edge of the desert so that you can take shield and start gathering tiles to get maximum resources.</string>
-<string name="gemPalace">You can build gem palace if your civil center is level-9 or up. Just Dig gems for 1 day only Yes guys dont go with 3 days/6 days/12 days Calculation has been done you will get 450 gems per day and this is max you can get.</string>
-    <string name="rssfarming">"Resources are the most important part of any war game, To get resources  you can either attack someone and loot rss or you can gather tiles/lairs, HIGHER LEVEL TILES CAN BE GATHER QUICKLY COMPARE TO THE LOWER LVL ONES to gather more faster \n1. Buy and use Gather Boost from alliance store\n2.  Set dragon skills on gatherings and research gathering boost\n Tip: Just create some farm accounts if you want regular rss supply "
+<string name="gemPalace">You can build gem palace if your civil center is level-9 or up. Just Dig gems for 1 day only Yes guys dont go with 3 days/6 days/12 days Calculation has been done you will get 450 gems per day and that is max you can get.</string>
+    <string name="rssfarming">"Resources are the most important part of any war game, To get resources  you can either attack someone and loot rss or you can gather tiles/lairs, HIGHER LEVEL TILES CAN BE GATHER FASTER COMPARE TO THE LOWER LVL ONES to gather more faster \n1. Buy and use Gather Boost from alliance store\n2.  Set dragon skills on gatherings and research gathering boost\nTip: Just create some farm accounts if you want regular rss supply "
 
 
     </string>
 <string name="events">You can get speedups and gems if u participate in diffrent events.
-    \n Events are of two type\n 1. Individual event\n 2. Alliance Events\n\n Whatever the event is there is always 3 goals to be achieved which gives speedups,gems and gifts,and theme rewards based on rank you get\nJust focus on getting goal-3 first if you are unable to reach to the goal-3 ask some points from you allies\n\n Tip: if you have some farm/alt accounts then make some points from those accounts and  donate it to your main account :)</string>
-    <string name="knightFarm">"Follow the above video to upgrade knight :)\n\n Knights are the most important soldiers they can help you to boost growth, attacking and defending skills, use knight wisely to grow your city like if you wanna do any build then set knight to Engineer for research set it to Magician. \n We can use knight to any specific position we want, so just lvl-up your knight and assign it wisely.
+    \nEvents are of two type\n1. Individual event\n2. Alliance Events\n\nWhatever the event is there is always 3 goals to be achieved which gives speedups,gems and gifts other than they give THEME REWARDS based on the rank you get\nJust focus on getting goal-3 first if you are unable to reach to the goal-3 ask some points from you allies\n\n Tip: if you have some farm/alt accounts then make some points from those accounts and donate it to your main account :)</string>
+    <string name="knightFarm">"Follow the above video to upgrade knight :)\n\nKnights are the most important soldiers they can help you to boost growth, attacking and defending skills, use knight wisely to grow your city like if you wanna do any build then set knight to Engineer, for research set it to Magician. \n We can use knight to any specific position we want, so just lvl-up your knight and assign it wisely.
 
         "   </string>
 
     <string name="otherKnightTips">
-        1. Get atleast 3 knights to max level so you can assign two of them on Commander and Engineer for Attacking/Defending and one for march.\n
-        2. While attacking use your max lvl knight on commander and send one max knight with attacking march.
+        1. Get atleast 3 knights to max level so you can assign two of them on Commander and Engineer for Attacking/Defending and one will go with march.\n
+        2. While attacking use your max lvl knight on commander and send other max knight with attacking march.\n
         3. Get your NobalHall to 20 to get extra 20% knight boost.
 
     </string>
-
-    <string name="usegems">Always buy construction chest of 4500 gems for any build/research/training because it will cost you more if you use your gems directly for instant finish.</string>
-<string name="trailFeilds"> You can complete solo and inferno goals to get rewards and gems below are the tricks to complete lord trial missions \n\n 1. Train 800 t3 troops per hour to get 2X 1000 dragon energy by completing solo event goal-1\n 2. Use shatter wave to deconstruct a building and then reconstruct it, repeat these steps to complete solo, inferno goals(not recommanded) </string>
-<string name="mysteryGifts">Mystery Gifts are again can get you gems just check bottom right on your game screen it refresh in some time interval\n Tip: As a have noticed  mystery gifts gives you same gifts on specific time so keep an eye on it.</string>
+    <string name="killevemt">There is a smart trick if you wanna make gems in kill event\nJust use your farm account and train some t3 siege troops, Attack that farm with your main account, heal your farm and repeat untill you get goal-3 or keep on doing it untill you get theme rank-1 reward :) </string>
+<string name="monsterEvent">You can make lot of gems in monster hunting event as follows.\n1.Keep on collecting dragon energy cards by training 800 t3 so when monster hunt event arrives you can have enough dragon energy.\n2. Kill only lvl-1,2 monsters with max-hit to get more gifts in less energy\n3. Use all of your farms accounts and keep on hitting monsters</string>
+    <string name="usegems">Always buy construction chest of 4500 gems for any build/research/training.If you use your gems directly for instant finish it will cost you more.</string>
+<string name="trailFeilds"> You can complete solo and inferno goals to get rewards and gems below are the tricks to complete lord trial missions. \n\n1. Train 800 t3 troops per hour to get 2X 1000 dragon energy by completing solo event goal-1\n 2. Use shatter wave to deconstruct a building and then reconstruct it, repeat these steps to complete solo, inferno goals(not recommended) </string>
+<string name="mysteryGifts">Mystery Gifts are again can get you gems just check bottom right on your game screen it refresh in some time interval.\nTip: As I have noticed  mystery box give you SAME GIFT ON PARTICULAR TIME so keep an eye on it.</string>
     <string name="allianceMissions">Complete alliance missions daily to get bronze,silver and gold chest which can get you gems and  various rewards, just ask your ally members to train some batches of troops daily</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
