@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~CollapsingToolbarLayout
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="bob.com.example.root.blazeguide.DefendingTricks">
-
+    android:fitsSystemWindows="true">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
@@ -15,7 +30,7 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         <android.support.design.widget.CollapsingToolbarLayout
-            android:id="@+id/defend_collapsing_toolbar"
+            android:id="@+id/dragonandlord_collapsing_toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
@@ -26,21 +41,21 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
-                android:id="@+id/defendimage"
+                android:id="@+id/lordanddragonimage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/defend"
-
+                android:background="@drawable/d_drag"
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
                 app:layout_collapseMode="parallax" />
 
             <android.support.v7.widget.Toolbar
-                android:id="@+id/defendToolbar"
+                android:id="@+id/lordanddragonimagetoolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
-                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                />
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
@@ -61,79 +76,54 @@
             android:weightSum="1">
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/md_keylines"
-
-                android:text="Defending Tips"
+                android:text="How to LevelUp Lord Quickly"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles" />
 
             <TextView
+                android:id="@+id/lordlvlup"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/defendingTricks"
-                android:textColor="#FFFFFF"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="16dp"
-
-                android:text="Counter Rally Trick"
-                android:textColor="#FFFF00"
-                android:textSize="@dimen/article_titles" />
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/counterRally"
-                android:textColor="#FFFFFF"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="16dp"
-
-                android:text="Make a Trap City"
-                android:textColor="#FFFF00"
-                android:textSize="@dimen/article_titles" />
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/trapCity"
-                android:textColor="#FFFFFF"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="16dp"
-                android:text="Hospital Cap= Troops Cap"
-                android:textColor="#FFFF00"
-                android:textSize="@dimen/article_titles" />
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/hospitalCaptroopcap"
-                android:textColor="#FFFFFF"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="16dp"
-                android:text="Perform Lure/Defend/Heal...Repeat"
-                android:textColor="#FFFF00"
-                android:textSize="@dimen/article_titles" />
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/ldhrepeat"
+                android:text="@string/lordlevelup"
                 android:textColor="#FFFFFF"
-                 android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:id="@+id/dragonimage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/d_drag"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="How to LevelUp Dragon Quickly"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/draglvlup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dragonlvlup"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+
+            <ImageView
+                android:id="@+id/draglvlimage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/d_drag"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax" />
 
 
 

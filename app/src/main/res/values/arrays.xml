@@ -20,6 +20,7 @@
         <item>Gem Drive</item>
         <item>Build Calculator</item>
         <item>Monster Kill Tricks</item>
+        <item>Lord and Dragon Level-Up Tips</item>
         <item>Resource Farming Tricks</item>
         <item>Blaze of Battle Videos</item>
         <item>Attacking Tricks</item>
@@ -35,6 +36,7 @@
         <item>How to make gems faster</item>
         <item>Calculate Build/Research time</item>
         <item>How to kill monsters quickly</item>
+        <item>Quickly level-up your lord and dragon level</item>
         <item>How to get plenty of rss</item>
         <item>Watch Youtube Videos of Blaze of Battle</item>
         <item>Good Attacking tips and tricks</item>
@@ -64,6 +66,7 @@
         <item>@drawable/a</item>
         <item>@drawable/gem</item>
         <item>@drawable/calculate</item>
+        <item>@drawable/d_drag</item>
         <item>@drawable/d_drag</item>
         <item>@drawable/rss</item>
         <item>@drawable/youtube</item>

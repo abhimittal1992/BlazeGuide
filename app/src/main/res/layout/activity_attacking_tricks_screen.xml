@@ -86,8 +86,39 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rssfarming"
+                android:text="@string/attackingtip"
                 android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/md_keylines"
+
+                android:text="Attack Preparation"
+                android:layout_marginTop="16dp"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/attackpreparation"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+android:layout_marginTop="16dp"
+                android:text="Meat Shield"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/meatShield"
+                android:textColor="#FFFFFF"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -105,7 +136,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="8dp"
 
                 android:text="One-Hit Rally"
                 android:textColor="#FFFF00"
@@ -119,8 +151,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/md_keylines"
-
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="8dp"
                 android:text="Multi-Hit Rally"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles" />
@@ -160,42 +192,29 @@
                 android:id="@+id/t4attack1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/b" />
+                app:srcCompat="@drawable/attackt4" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/attackt4"
+                android:layout_marginBottom="8dp"
+                android:textColor="#FFFFFF"/>
+
             <ImageView
                 android:id="@+id/t4attack2"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/b" />
-
+                app:srcCompat="@drawable/meat"
+                android:layout_marginBottom="8dp"
+                />
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/meat"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp"
+                />
 
-                android:text="Attack Preparation"
-                android:textColor="#FFFF00"
-                android:textSize="@dimen/article_titles" />
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/attackpreparation"
-                android:textColor="#FFFFFF"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/md_keylines"
-
-                android:text="Meat Shield"
-                android:textColor="#FFFF00"
-                android:textSize="@dimen/article_titles" />
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/meatShield"
-                android:textColor="#FFFFFF"/>
 
 
 

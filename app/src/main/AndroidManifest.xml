@@ -93,21 +93,44 @@
             android:label="@string/title_activity_gem_drive"
             android:parentActivityName=".HomeScreen"
             android:theme="@style/AppTheme" />
+
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".HomeScreen" />
 
         <activity
             android:name=".BuildTimeCalculator"
-            android:parentActivityName=".HomeScreen"
             android:label="@string/title_activity_build_calculator"
+            android:parentActivityName=".HomeScreen"
             android:theme="@style/AppTheme" />
 
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".HomeScreen" />
 
-        <activity android:name=".AboutMe"></activity>
+        <activity android:name=".AboutMe" />
+
+        <service android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.FirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".LordAndDragon"
+            android:label="@string/title_activity_lord_and_dragon"
+            android:parentActivityName=".HomeScreen"
+
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeScreen" />
+        </activity>
     </application>
 
 </manifest>

@@ -47,6 +47,8 @@ import java.net.URL;
  * Provides UI for the view with List.
  */
 public class ListContentFragment extends Fragment {
+    static String[] screenArray = {"M9l16G2zh_0","bfg7OgudGUY","GqG-YpbGNUw","EPYQpolo_Jo","8D1URtm6KsE","NIsrXMC4gLE","G42-nxH5WBU","xMyiqp2tivg","D7PHfI8oiOc"};
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -72,11 +74,14 @@ public class ListContentFragment extends Fragment {
                 @Override
                 public void onClick(View v) {
                      Context context = v.getContext();
-                    context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=M9l16G2zh_0")));
-
+                    getScreen(context,screenArray[getAdapterPosition()]);
                 }
             });
         }
+    }
+    public static void getScreen(Context context, String screen) {
+        context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v="+screen)));
+
     }
 
     /**

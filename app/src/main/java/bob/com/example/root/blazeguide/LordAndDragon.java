@@ -10,7 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 
-public class AttackingTricksScreen extends AppCompatActivity {
+public class LordAndDragon extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,14 +18,16 @@ public class AttackingTricksScreen extends AppCompatActivity {
         if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.LOLLIPOP) {
             getWindow().setStatusBarColor(getResources().getColor(android.R.color.black));
         }
-        setContentView(R.layout.activity_attacking_tricks_screen);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.attackToolbar);
-        setSupportActionBar(toolbar);
+
+        setContentView(R.layout.activity_lord_and_dragon);
+        Toolbar t1 = (Toolbar) findViewById(R.id.lordanddragonimagetoolbar);
+        setSupportActionBar(t1);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         // Set Collapsing Toolbar layout to the screen
         CollapsingToolbarLayout collapsingToolbar =
-                (CollapsingToolbarLayout) findViewById(R.id.attack_collapsing_toolbar);
-        collapsingToolbar.setTitle("Attacking Tricks");
+                (CollapsingToolbarLayout) findViewById(R.id.dragonandlord_collapsing_toolbar);
+        collapsingToolbar.setTitle("Level-Up Lord and Drag");
+
     }
 
 }
