@@ -73,11 +73,12 @@
     <string name="knightFarm">"Follow the above video to upgrade knight :)\n\nKnights are the most important soldiers they can help you to boost growth, attacking and defending skills, use knight wisely to grow your city like if you wanna do any build then set knight to Engineer, for research set it to Magician. \n We can use knight to any specific position we want, so just lvl-up your knight and assign it wisely.
 
         "   </string>
-    <string name="autoChest">"Follow the above video to open chest automatically :)\n\nIts easy to open any type of chest using this method so it just required a laptop.
+    <string name="autoChest">"Follow the above video to open chest automatically :)\n\nIts easy to open any type of chest using this method it just required a laptop and decent internet connection.
 
         "   </string>
+    <string name="reqSoft">1.BlueStack/Memo Emulator : which is used to run android app on laptop.\n2.MouseRecorder: Which is used to record the pattern.</string>
 
-    <string name="otherautochest">1.You can even use this trick  on speedups like you dont have to press while using 30m or 1h or any speedups\n2.Use it to transfer rss from one account to another.</string>
+    <string name="otherautochest">1.You can even use this trick  on speedups like you dont have to press while using 30m or 1h or any speedups.\n\n2.Use it to transfer rss from one account to another.</string>
     <string name="otherKnightTips">
         1. Get atleast 3 knights to max level so you can assign two of them on Commander and Engineer for Attacking/Defending and one will go with march.\n
         2. While attacking use your max lvl knight on commander and send other max knight with attacking march.\n
