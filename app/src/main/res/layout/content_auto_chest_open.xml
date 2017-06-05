@@ -43,7 +43,7 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/knightFarm"
+                android:text="@string/autoChest"
                 android:textColor="#FFFFFF"
                 android:textAlignment="center"
                 />
@@ -59,7 +59,7 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/otherKnightTips"
+                android:text="@string/otherautochest"
                 android:textColor="#FFFFFF"
                 android:layout_marginBottom="10dp"
                 android:textAlignment="center"

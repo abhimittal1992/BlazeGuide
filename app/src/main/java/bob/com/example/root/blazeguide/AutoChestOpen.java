@@ -51,7 +51,7 @@ public class AutoChestOpen  extends YouTubeBaseActivity implements YouTubePlayer
         player.setPlaybackEventListener(playbackEventListener);
 
         if (!wasRestored) {
-            player.cueVideo("M9l16G2zh_0"); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
+            player.cueVideo("rTT7vx0kSfA"); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
         }
     }
 
