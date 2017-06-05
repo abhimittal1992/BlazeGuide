@@ -17,10 +17,18 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class HomeScreen extends AppCompatActivity {
+
+
+    private InterstitialAd interstitial;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,9 +59,43 @@ public class HomeScreen extends AppCompatActivity {
                 startActivity(new Intent(HomeScreen.this, AboutMe.class));
             }
         });
+
+        // Prepare the Interstitial Ad
+        interstitial = new InterstitialAd(HomeScreen.this);
+        // Insert the Ad Unit ID
+        interstitial.setAdUnitId("ca-app-pub-7723977720314708/2386230676");
+
+        //Locate the Banner Ad in activity_main.xml
+        AdView adView = (AdView) this.findViewById(R.id.adView);
+
+        // Request for Ads
+        AdRequest adRequest = new AdRequest.Builder()
+
+
+                .build();
+
+        // Load ads into Banner Ads
+        adView.loadAd(adRequest);
+
+        // Load ads into Interstitial Ads
+        interstitial.loadAd(adRequest);
+
+        // Prepare an Interstitial Ad Listener
+        interstitial.setAdListener(new AdListener() {
+            public void onAdLoaded() {
+                // Call displayInterstitial() function
+                displayInterstitial();
+            }
+        });
         // Set Tabs inside Toolbar
        /* TabLayout tabs = (TabLayout) findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);*/
+    }
+    public void displayInterstitial() {
+        // If Ads are loaded, show Interstitial else show nothing.
+        if (interstitial.isLoaded()) {
+            interstitial.show();
+        }
     }
         public void createShortCut(){
             Intent shortcutIntent = new Intent(getApplicationContext(), HomeScreen.class);
