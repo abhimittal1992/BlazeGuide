@@ -10,7 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 
-public class LordAndDragon extends AppCompatActivity {
+public class    LordAndDragon extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

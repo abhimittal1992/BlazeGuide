@@ -108,7 +108,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-android:layout_marginTop="16dp"
+                android:layout_marginTop="16dp"
                 android:text="Meat Shield"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles" />
@@ -122,8 +122,8 @@ android:layout_marginTop="16dp"
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/md_keylines"
-
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
                 android:text="Rally Tips"
                 android:textColor="#FFFF00"
                 android:textSize="@dimen/article_titles" />
@@ -166,7 +166,8 @@ android:layout_marginTop="16dp"
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
 
                 android:text="Solo Attacking Tips"
                 android:textColor="#FFFF00"
