@@ -7,17 +7,22 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
+import android.provider.AlarmClock;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.w3c.dom.Text;
+
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -27,6 +32,8 @@ import java.util.TimeZone;
 import java.util.TreeSet;
 
 import bob.com.example.root.blazeguide.service.AlarmService;
+
+import static bob.com.example.root.blazeguide.R.drawable.e;
 
 public class DesertTiles extends AppCompatActivity {
 
@@ -45,13 +52,53 @@ public class DesertTiles extends AppCompatActivity {
         // Set Collapsing Toolbar layout to the screen
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.desert_collapsing_toolbar);
-        collapsingToolbar.setTitle("Defending Tricks");
+        collapsingToolbar.setTitle("Desert Tiles Refresh");
 
-        Switch desertSwitch = (Switch) findViewById(R.id.desertSwitch);
+        TextView time1 = (TextView) findViewById(R.id.time1);
+        TextView time2 = (TextView) findViewById(R.id.time2);
+
+        TextView time3 = (TextView) findViewById(R.id.time3);
+
+        TextView time4 = (TextView) findViewById(R.id.time4);
+
+        TextView time5 = (TextView) findViewById(R.id.time5);
+
+        TextView time6 = (TextView) findViewById(R.id.time6);
+        Button clock = (Button) findViewById(R.id.clock);
+        clock.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent openClockIntent = new Intent(AlarmClock.ACTION_SET_ALARM);
+                openClockIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(openClockIntent);
+            }
+        });
+
+
         SharedPreferences sharedPrefs = getSharedPreferences("bob.com.example.root.blazeguide", MODE_PRIVATE);
-        desertSwitch.setChecked(sharedPrefs.getBoolean("NameOfThingToSave", false));
+    //    desertSwitch.setChecked(sharedPrefs.getBoolean("NameOfThingToSave", false));
 
-        desertSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+
+        DateFormat df7 = new SimpleDateFormat("HH:mm");
+
+        try {
+            time1.setText(df7.format(gmttoLocalDate(getDateFromString("02:10"))));
+            time2.setText(df7.format(gmttoLocalDate(getDateFromString("06:10"))));
+
+            time3.setText(df7.format(gmttoLocalDate(getDateFromString("10:10"))));
+
+            time4.setText(df7.format(gmttoLocalDate(getDateFromString("14:10"))));
+
+            time5.setText(df7.format(gmttoLocalDate(getDateFromString("18:10"))));
+
+            time6.setText(df7.format(gmttoLocalDate(getDateFromString("22:10"))));
+
+
+        }   catch(Exception e){
+
+        }
+       /* desertSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             AlarmManager alarmManager = (AlarmManager)getSystemService(ALARM_SERVICE);
 
             @Override
@@ -83,7 +130,7 @@ public class DesertTiles extends AppCompatActivity {
                 }
 
             }
-        });
+        });*/
     }
 
     public static Long getCurrentUTCTIME(){
@@ -92,6 +139,25 @@ public class DesertTiles extends AppCompatActivity {
         cal.setTimeZone(TimeZone.getTimeZone("UTC"));
         return cal.getTimeInMillis();
     }
+
+    public Date getDateFromString(String dateStr){
+        DateFormat formatter = new SimpleDateFormat("HH:mm");
+        try {
+            Date startDate = (Date)formatter.parse(dateStr);
+            return startDate;
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public static Date gmttoLocalDate(Date date) {
+
+        String timeZone = Calendar.getInstance().getTimeZone().getID();
+        Date local = new Date(date.getTime() + TimeZone.getTimeZone(timeZone).getOffset(date.getTime()));
+        return local;
+    }
+
 
     public static Long getClosesDesertTime(Long currentTime){
         TreeSet<Long> times = new TreeSet<>();

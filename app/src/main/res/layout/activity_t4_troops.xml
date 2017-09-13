@@ -1,0 +1,280 @@
+
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~CollapsingToolbarLayout
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bob.com.example.root.blazeguide.T4Troops">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/t4_collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginEnd="@dimen/article_keylines"
+            app:expandedTitleMarginStart="@dimen/md_keylines"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/gemimage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gem"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/t4toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="#560607"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/left_margin_36"
+            android:paddingRight="@dimen/md_keylines"
+            android:paddingTop="@dimen/md_keylines"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/tile_padding"
+
+                android:text="Set milestones"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t4Milestones"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
+                android:text="How to achieve milestones"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/achieveMilestones"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="385dp"
+                app:srcCompat="@drawable/mobgems" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/monsterandlair2"
+                android:textColor="#FFFFFF"
+                android:layout_weight="0.21" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
+                android:text="Alliance Gifts"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="102dp"
+                android:text="@string/alliancegifts"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textVie3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
+                android:text="Gem Palace"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="102dp"
+                android:text="@string/gemPalace"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textVie4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
+                android:text="Events"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/events"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textVie5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
+                android:text="Trail Fields"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trailFeilds"
+                android:textColor="#FFFFFF" />
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/solo" />
+            <TextView
+                android:id="@+id/textVie6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
+                android:text="Alliance Missions"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/allianceMissions"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textVie7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
+                android:text="Mystery Gifts"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="102dp"
+                android:text="@string/mysteryGifts"
+                android:textColor="#FFFFFF" />
+            <ImageView
+                android:id="@+id/mysterygift"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mystery" />
+
+            <TextView
+                android:id="@+id/textVie71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
+                android:text="Monster Event Max Gems Trick"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/monsterEvent"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textVie711"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
+                android:text="Kill Event Max Gems Trick"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/killevemt"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/textVie9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/md_keylines"
+                android:layout_marginBottom="@dimen/tile_padding"
+                android:text="How to use gems"
+                android:textColor="#FFFF00"
+                android:textSize="@dimen/article_titles"
+                android:layout_weight="0.60" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="102dp"
+                android:text="@string/usegems"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

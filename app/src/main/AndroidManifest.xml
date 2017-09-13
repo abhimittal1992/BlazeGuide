@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
     <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
 
     <application
         android:allowBackup="true"
@@ -153,15 +154,32 @@
             android:name=".DesertTiles"
             android:label="@string/title_activity_desert_tiles"
             android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeScreen" />
         </activity>
         <activity android:name=".utility.NotificationActivity" />
 
-        <receiver android:name="bob.com.example.root.blazeguide.service.AlarmService">
+        <receiver android:name=".service.AlarmService">
             <intent-filter>
                 <action android:name="android.media.action.DISPLAY_NOTIFICATION" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </receiver>
+
+        <activity
+            android:name=".BubblePoPNotification"
+            android:label="@string/title_activity_bubble_po_pnotification"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".T4Troops"
+            android:label="@string/title_activity_t4_troops"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FreeTroopTrain"
+            android:label="@string/title_activity_free_troop_train"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

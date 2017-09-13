@@ -27,6 +27,9 @@
         <item>Attacking Tricks</item>
         <item>Defending Tricks</item>
         <item>Desert Tiles Refresh</item>
+        <item>Bubble Pop Notification</item>
+        <item>t4 troops without spend $</item>
+        <item>Free troop training tips</item>
 
 
 
@@ -38,13 +41,16 @@
         <item>How to make gems faster</item>
         <item>Calculate Build/Research time</item>
         <item>How to kill monsters quickly</item>
-        <item>Learn How to open unlimited chests without hurting your fingers</item>
+        <item>Open unlimited chests automatically</item>
         <item>Quickly level-up your lord and dragon level</item>
         <item>How to get plenty of rss</item>
         <item>Watch Youtube Videos of Blaze of Battle</item>
         <item>Good Attacking tips and tricks</item>
         <item>Good Defending tips and tricks</item>
         <item>Now gather from desert tiles </item>
+        <item>Notify me when my bubble pops</item>
+        <item>Get t4 troops without spending money</item>
+        <item>Free troop traing tips</item>
 
 
 
@@ -78,6 +84,7 @@
         <item>@drawable/youtube</item>
         <item>@drawable/atttack</item>
         <item>@drawable/defend</item>
+        <item>@drawable/deserttiles</item>
 
 
     </array>

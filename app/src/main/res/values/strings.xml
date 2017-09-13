@@ -200,7 +200,7 @@
     <string name="soloattacking">To perform solo attack you need to know about march capacity,  the max march capacity anyone can have without boost is 300k with max boost(50% march boost) is 450k so while attacking keep in mind you can only attack with max 450k troops so while attacking with t3 troops if you wanna win that attack then to be on safe side just attack only those opponents who got troops half of your march capacity dont attack who got more troops than your march size, its  depends on the research,dragon equipments,lord/dragon skills. you can check it in bonus comparision which is available in the reports  </string>
     <string name="soloattackpart2">As you can see the red arrow shows your bonus is less than your enemy so work on that make it better than your opponent and you will win that.\n While performing an attack with t4s you can kill anyone having t3s easily below are some reports</string>
 
-    <string name="meatShield">MeatShield is very important if you wanna secure your higher lvl troops means if you have t3s than train some t1 troops as a meatshield while attacking someone and if you have t4s than use t3 as meat shield to be very precise suppose your march capacity is 300k and you have t3 troops, To attack someone then use 15-20k t1 troops rest t3s the benefit is only your t1 troops get killed and your t3 will get saved</string>
+    <string name="meatShield">MeatShield is very important if you wanna secure your higher lvl troops means if you have t3s than train some t1 troops as a meat shield while attacking someone and if you have t4s than use t3 as meat shield to be very precise suppose your march capacity is 300k and you have t3 troops, To attack someone then use 15-20k t1 troops rest t3s the benefit is only your t1 troops get killed and your t3 will get saved</string>
     <string name="attackpreparation">To perform a good attack you need to prepare for it first, dont rush and send marches in hurry.\n\n1.Use march boost to increase the size of army you can send at a time \n2.You need to have atleast two high lvl knight, assign one in commander and send one with your march to attack\n3.Use Attack Boost\n4.Reset Lord/Dragon skills on troops attack\n5.You should have good troop life research\n6.Dont forget to wear best attacking dragon equipments.\n7.Make sure your VIP is active</string>
     <string name="title_activity_gem_drive">Gem Drive</string>
     <string name="title_activity_build_calculator">Build Time Calculator</string>
@@ -212,4 +212,11 @@
     <string name="title_activity_auto_chest_open">Open Chests Automatically</string>
     <string name="title_activity_inter_ad">InterAd</string>
     <string name="title_activity_desert_tiles">DesertTiles</string>
+    <string name="title_activity_bubble_po_pnotification">BubblePoPNotification</string>
+    <string name="title_activity_t4_troops">Get T4 Troops</string>
+    <string name="t4Milestones">To get t4s without spending you have to set some milestones first and gradually complete them one by one \n 1. Mage-20 \n 3. Complete Economic Research \n 4. Complete required combat research \n 5. Unlock t4</string>
+    <string name="achieveMilestones">All you need is GEMS to get gems you need to visit GEM DRIVE PAGE other than this check the following tips \nMAGIC GUILD-20 \nFor mage-20 you need Jail and Altar to be on 20 which is really hard to do without enough gems \nConvert Training Speedups Into Hourglass:\nJust complete inferno goals using training speedups and get the decent rewards but to hit free inferno you need a bit higher training speed like 800%+ 
+    </string>
+    <string name="freetroop">to train free troops you need troop training speed over 800% \nAfter getting required train speed you can complete inferno goals for free just Resources required.</string>
+    <string name="title_activity_free_troop_train">FreeTroopTrain</string>
 </resources>
